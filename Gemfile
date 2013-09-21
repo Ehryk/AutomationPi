@@ -50,5 +50,6 @@ gem 'figaro'
 # Use twitter bootstrap
 gem 'twitter-bootstrap-rails', '~> 2.2.8'
 
-# Use pi_piper
+# Use pi_piper and wiringpi
 gem 'pi_piper', group: [:development, :production]
+gem 'wiringpi', group: [:development, :production]
