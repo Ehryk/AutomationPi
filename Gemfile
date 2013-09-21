@@ -33,7 +33,7 @@ group :doc do
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -42,4 +42,13 @@ end
 # gem 'capistrano', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+gem 'debugger', group: [:development, :test]
+
+# Use Figaro to manage Environment Variables
+gem 'figaro'
+
+# Use twitter bootstrap
+gem 'twitter-bootstrap-rails', '~> 2.2.8'
+
+# Use pi_piper
+gem 'pi_piper', group: [:development, :production]
